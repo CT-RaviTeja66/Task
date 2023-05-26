@@ -1,0 +1,98 @@
+.head{
+    font-family: Roboto;
+    font-size: 60px;
+    margin-right: 20px;
+}
+
+.head2{
+    text-align: center;
+}
+.image-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: grey; 
+    
+    padding: 10px;
+}
+
+.bg-container{
+    background-color: hwb(36 15% 83% / 0.466);
+    padding-left: 10px;
+    width: 30%;
+    margin-top: 18px;
+}
+
+.image{
+    height: 150px;
+    width: 150px;
+    border-radius: 300px;
+    margin-left: 10px;
+}
+.phn{
+    text-decoration: underline;
+}
+
+.bg-container1{
+    background-color: white;
+    margin-left: 2px;
+}
+.head1{
+    background-color: grey;
+    padding-bottom: 10px;
+}
+
+.mass{
+    background-color: white;
+}
+
+.line{
+    color: black;
+}
+
+.king{
+    display: flex;
+    flex-direction: row;
+}
+
+.king1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carrer_para{
+    padding-left: 10px;
+}
+
+.personal_list{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 425px) {
+    .head{
+        font-family: Roboto;
+        font-size: 25px;
+        margin-right: 20px;
+    }
+
+    .image-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: grey;
+        padding: 10px;
+    }
+
+    .image{
+        height: 100px;
+        width: 100px;
+        border-radius: 300px;
+        margin-left: 10px;
+    }
+    
+    
+    
+}
+
+  
